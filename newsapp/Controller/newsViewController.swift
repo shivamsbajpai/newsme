@@ -6,7 +6,7 @@
 //  Copyright © 2020 Shivam. All rights reserved.
 //
 
-import UIKit
+import UIKit //check
 
 class newsViewController: UITableViewController, NewsManagerDelegate {
     
