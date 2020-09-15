@@ -9,4 +9,6 @@
 import Foundation
 struct NewsModel {
     var title: String
+    var url: String?
+    var urlToImage: String?
 }
