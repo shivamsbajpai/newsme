@@ -60,7 +60,7 @@
                 <outlet property="newsBubble" destination="5Y9-EI-2hn" id="UK4-sq-uSb"/>
                 <outlet property="newsImage" destination="0cr-44-gQa" id="rjT-Mf-5jH"/>
             </connections>
-            <point key="canvasLocation" x="-1051" y="102"/>
+            <point key="canvasLocation" x="-1975" y="-158"/>
         </tableViewCell>
     </objects>
     <resources>
