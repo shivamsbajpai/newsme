@@ -10,7 +10,7 @@ import UIKit
 import WebKit
 
 class WebViewController: UIViewController, WKNavigationDelegate {
-
+    
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var web: WKWebView!
     var receivedData = ""
@@ -22,11 +22,10 @@ class WebViewController: UIViewController, WKNavigationDelegate {
         web.scrollView.bounces = true
         let url = URL(string: receivedData)
         let request = URLRequest(url: url!)
-        DispatchQueue.main.async {
-            self.activityIndicator.startAnimating()
-            self.web.load(request)
-            self.activityIndicator.hidesWhenStopped = true
-        }
+        activityIndicator.startAnimating()
+        web.load(request)
+        activityIndicator.hidesWhenStopped = true
+        
     }
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         activityIndicator.stopAnimating()
