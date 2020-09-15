@@ -14,7 +14,7 @@ class newsCell: UITableViewCell {
     @IBOutlet weak var newsBubble: UIView!
     @IBOutlet weak var label: UILabel!
     
-    @IBOutlet weak var newsImage: UIImageView!
+    @IBOutlet weak var newsImage: LazyImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

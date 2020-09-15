@@ -50,15 +50,7 @@ struct NewsManager {
         let decoder = JSONDecoder()
         do {
             let decodedData = try decoder.decode(NewsData.self, from: newsData)
-        
             return decodedData.articles
-//            print(decodedData.articles[0].publishedAt)
-//            print(decodedData.articles[2].content!)
-//            print(decodedData.articles[0].author!)
-//            print(decodedData.articles[0].description!)
-//            print(decodedData.articles[0].source.id!)
-//            print(decodedData.articles[0].url)
-//            print(decodedData.articles[0].urlToImage)
         } catch {
             delegate?.didFailWithError(error: error)
             return nil
