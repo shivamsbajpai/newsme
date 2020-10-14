@@ -5,7 +5,6 @@
 //  Created by Shivam on 13/09/20.
 //  Copyright © 2020 Shivam. All rights reserved.
 //
-//articles[0].author
 
 import Foundation
 
@@ -19,9 +18,6 @@ struct NewsManager {
     var delegate: NewsManagerDelegate?
     
     let newsUrl = "https://newsapi.org/v2/top-headlines?country=us&apiKey=16d41c4d36c64372b061c1837b00a9ee"
-    //16d41c4d36c64372b061c1837b00a9ee
-    //6806d489a89c4f70858e889f073a2abc
-    
     func fetchNews() {
         performRequest(urlString: newsUrl)
     }
@@ -45,7 +41,6 @@ struct NewsManager {
             task.resume()
         }
     }
-//    articles[0].source.id
     func parseJSON(_ newsData: Data) -> [Articles]? {
         let decoder = JSONDecoder()
         do {
