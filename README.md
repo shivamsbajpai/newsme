@@ -6,11 +6,8 @@
     * Using WebKit, browser is implemented to display the article to the user in app.
     * Lazy loading is implemented to display the images in list.
     
-## Screenshots:
-    ![HomePage](/screenshots/1.png)
-    ![Headlines](/screenshots/2.png)
-    ![Article](/screenshots/3.png)
-
+## Screenshots:  
+<img src="/screenshots/1.png" width="315" height="682"><img src="/screenshots/2.png" width="315" height="682"><img src="/screenshots/3.png" width="315" height="682">
 ## API Information: [NewsAPI](https://newsapi.org)
     * news api free developer version
     * news headlines are 1 hour delayed.
