@@ -7,7 +7,7 @@
     * Lazy loading is implemented to display the images in list.
     
 ## Screenshots:  
-<img src="/screenshots/1.png" width="260" height="563"><img src="/screenshots/1.png" width="260" height="563"><img src="/screenshots/1.png" width="260" height="563">
+<img src="/screenshots/1.png" width="260" height="563">. <img src="/screenshots/2.png" width="260" height="563">. <img src="/screenshots/3.png" width="260" height="563">
 ## API Information: [NewsAPI](https://newsapi.org)
     * news api free developer version
     * news headlines are 1 hour delayed.
