@@ -33,7 +33,6 @@ struct NewsManager {
                 if let safeData = data {
                     if let news = self.parseJSON(safeData){
                         self.delegate?.didUpdateNews(news: news)
-//                        print("newsManager \(news.title)")
                     }
                     
                 }
