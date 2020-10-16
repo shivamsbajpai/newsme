@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		403499C425396D880060BEAF /* Api_Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403499C325396D880060BEAF /* Api_Key.swift */; };
 		40461A89250B5C0E00EB3419 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40461A88250B5C0E00EB3419 /* AppDelegate.swift */; };
 		40461A8B250B5C0E00EB3419 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40461A8A250B5C0E00EB3419 /* SceneDelegate.swift */; };
 		40461A8D250B5C0E00EB3419 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40461A8C250B5C0E00EB3419 /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		403499C325396D880060BEAF /* Api_Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api_Key.swift; sourceTree = "<group>"; };
 		40461A85250B5C0E00EB3419 /* newsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40461A88250B5C0E00EB3419 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40461A8A250B5C0E00EB3419 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				407671EE250E2F2000952331 /* NewsManager.swift */,
 				407671F0250E35B300952331 /* NewsData.swift */,
 				407671F5250E4FD300952331 /* NewsModel.swift */,
+				403499C325396D880060BEAF /* Api_Key.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				407671F6250E4FD300952331 /* NewsModel.swift in Sources */,
 				40461A8D250B5C0E00EB3419 /* ViewController.swift in Sources */,
 				40461A89250B5C0E00EB3419 /* AppDelegate.swift in Sources */,
+				403499C425396D880060BEAF /* Api_Key.swift in Sources */,
 				407671F1250E35B300952331 /* NewsData.swift in Sources */,
 				407671EF250E2F2000952331 /* NewsManager.swift in Sources */,
 				40461A8B250B5C0E00EB3419 /* SceneDelegate.swift in Sources */,

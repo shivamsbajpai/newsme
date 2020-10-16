@@ -17,7 +17,7 @@ struct NewsManager {
     
     var delegate: NewsManagerDelegate?
     
-    let newsUrl = "https://newsapi.org/v2/top-headlines?country=us&apiKey=16d41c4d36c64372b061c1837b00a9ee"
+    let newsUrl = "https://newsapi.org/v2/top-headlines?country=in&apiKey=\(ApiKey.api)"
     func fetchNews() {
         performRequest(urlString: newsUrl)
     }
