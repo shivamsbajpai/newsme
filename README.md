@@ -2,7 +2,7 @@
     * Gives current news headlines.
     * By clicking the headline, it navigates to the article.  
 ## iOS Application Information:
-    * API used for fetching data.
+    * News API used for fetching data.
     * Using WebKit, browser is implemented to display the article to the user in app.
     * Lazy loading is implemented to display the images in list.
     
