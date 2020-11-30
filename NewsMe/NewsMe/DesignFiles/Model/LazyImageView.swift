@@ -1,9 +1,8 @@
 //
 //  LazyImageView.swift
-//  newsapp
+//  NewsMe
 //
-//  Created by Shivam on 15/09/20.
-//  Copyright © 2020 Shivam. All rights reserved.
+//  Created by Shivam on 30/11/20.
 //
 
 import UIKit
@@ -23,5 +22,4 @@ class LazyImageView: UIImageView {
             }
         }
     }
-    
 }

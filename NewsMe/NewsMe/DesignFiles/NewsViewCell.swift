@@ -1,20 +1,19 @@
 //
-//  newsCell.swift
-//  newsapp
+//  NewsViewCell.swift
+//  NewsMe
 //
-//  Created by Shivam on 15/09/20.
-//  Copyright © 2020 Shivam. All rights reserved.
+//  Created by Shivam on 30/11/20.
 //
 
 import UIKit
 
-class newsCell: UITableViewCell {
+class NewsViewCell: UITableViewCell {
 
-    
-    @IBOutlet weak var newsBubble: UIView!
-    @IBOutlet weak var label: UILabel!
-    
     @IBOutlet weak var newsImage: LazyImageView!
+    
+    @IBOutlet weak var newsHeadline: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

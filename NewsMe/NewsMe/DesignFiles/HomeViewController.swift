@@ -13,12 +13,11 @@ class HomeViewController: UIViewController, UIPickerViewDelegate,UIPickerViewDat
     var countryList = ["India", "USA", "UK", "Russia","China"]
 
     @IBOutlet weak var countryTextField: UITextField!
+   //Buttons
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         createPickerView()
         dismissPickerView()
     }
@@ -54,5 +53,24 @@ class HomeViewController: UIViewController, UIPickerViewDelegate,UIPickerViewDat
     @objc func action() {
           view.endEditing(true)
     }
-
+    
+//buttons
+    @IBAction func topStoriesPressed(_ sender: UIButton) {
+        let viewController = ListViewController(nibName: "ListViewController", bundle: nil)
+        navigationController?.pushViewController(viewController, animated: true)
+    }
+    @IBAction func financePressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func sciencePressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func sportsPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func contactUsPressed(_ sender: UIButton) {
+    }
+    
+    
+    
 }

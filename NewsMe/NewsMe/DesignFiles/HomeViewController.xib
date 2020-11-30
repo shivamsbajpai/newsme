@@ -48,6 +48,9 @@
                     <state key="normal" title="Top Stories">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
+                    <connections>
+                        <action selector="topStoriesPressed:" destination="-1" eventType="touchUpInside" id="Nh6-Yw-iRS"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pSH-xL-6RV">
                     <rect key="frame" x="25" y="399" width="325" height="50"/>
@@ -55,6 +58,9 @@
                     <state key="normal" title="Finance">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
+                    <connections>
+                        <action selector="financePressed:" destination="-1" eventType="touchUpInside" id="KDA-wi-5Gz"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xYJ-3G-Wb4">
                     <rect key="frame" x="25" y="483" width="325" height="50"/>
@@ -62,6 +68,9 @@
                     <state key="normal" title="Science">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
+                    <connections>
+                        <action selector="sciencePressed:" destination="-1" eventType="touchUpInside" id="anF-bJ-yEq"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5cR-fG-Gd6">
                     <rect key="frame" x="25" y="643" width="325" height="50"/>
@@ -69,6 +78,9 @@
                     <state key="normal" title="Contact Us">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
+                    <connections>
+                        <action selector="contactUsPressed:" destination="-1" eventType="touchUpInside" id="oGz-Tr-0Dt"/>
+                    </connections>
                 </button>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gz0-kL-8sS">
                     <rect key="frame" x="0.0" y="369" width="375" height="30"/>
@@ -93,6 +105,9 @@
                     <state key="normal" title="Sports">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
+                    <connections>
+                        <action selector="sportsPressed:" destination="-1" eventType="touchUpInside" id="Lo6-IF-ZPA"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

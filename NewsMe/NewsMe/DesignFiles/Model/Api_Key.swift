@@ -8,6 +8,5 @@
 
 import Foundation
 struct ApiKey{
-    static let api: String = "putApiKeyHere";
+    static let api: String = "16d41c4d36c64372b061c1837b00a9ee";
 }
-//rename it to Api_Key.swift
